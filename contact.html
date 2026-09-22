@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header section-->
+    <h1>Jermi's Personal Website</h1>
+
+    <!--Navigation section-->
+    <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html" class="nav-link" aria-label="Home" data-label="Home">
+            <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 11.5 12 4l9 7.5"></path>
+                <path d="M5 10.5V20h5v-5h4v5h5v-9.5"></path>
+            </svg>
+        </a>
+        <a href="about.html" class="nav-link" aria-label="About Me" data-label="About Me">
+            <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"></path>
+                <path d="M4.5 20a7.5 7.5 0 0 1 15 0"></path>
+            </svg>
+        </a>
+        <a href="contact.html" class="nav-link is-active" aria-label="Contact Me" aria-current="page" data-label="Contact Me">
+            <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 6h16v12H4z"></path>
+                <path d="m4 7 8 6 8-6"></path>
+            </svg>
+        </a>
+    </nav>
+    
+    <hr>
+    <h2 class="page-title">Contact Me</h2>
+     
+    <!--contact section-->
+    <section class="top-section">
+     <h3>Get in touch</h3>
+     <p>I would love to connect, collaborate, or hear from you.</p>
+     <p>Feel free to reach out for projects, opportunities, ideas, or meaningful conversations.</p>
+    </section>
+
+    <div class="contact-form">
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="name@gmail.com">
+            
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Enter your message here" rows="10"></textarea>
+            
+            <input type="submit" value="Send Your Message">
+        </form>
+    </div>
+
+     <!--sidebar-->
+      <aside>
+          <p><strong>Email:</strong> jermiprosper@gmail.com</p>
+          <p><strong>Tel:</strong> +256 786 028 068</p>
+          <p><strong>Location:</strong> Mbarara City</p>
+      </aside>
+
+    <!--footer section-->
+    <footer>
+        <p>&copy; 2026 Jermi. Designed and developed with passion.</p>
+    </footer>
+</body>
+</html>
